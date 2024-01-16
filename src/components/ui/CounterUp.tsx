@@ -19,7 +19,7 @@ export default function CounterUp(
       <VisibilitySensor  partialVisibility offset={{ bottom: 200 }}>
         {({ isVisible} : SensorCallbackArg) => (
           <div  style={{ height: '56px' }}>
-            {isVisible ? <CountUp end={countTo} /> : null}
+            {isVisible ? <CountUp end={countTo} /> : null}+
           </div>
         )}
       </VisibilitySensor>
